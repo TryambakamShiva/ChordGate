@@ -47,9 +47,9 @@ The web-application is based on Python (3.8.2) using Flask framework. The websit
 
 Currently, an user can upload only MP3, WAV, AIFF and FLAC Audio (Music) Files (up to 25 MB) and the chords will be generated (extracted) from the music files (songs) and consequently generate images of the guitar chords (chord-diagram) in HTML. The extracted chords and chord-diagram can then be saved as .pdf file by users.  For best results, upload MP3 files. File Mime-Types are checked inside server for security protocols and so if one type of file is rejected based on MIME–type, please upload another file (suitably MP3). <br><br>
 
-The concerned code for the entire web-application will be uploaded in a new GitHub repository, 
-with detailed discussion of pre-installation requisites, libraries etc. over time. 
-Please bear with the developer as the documentation is prepared. <br>
+The concerned code for the entire web-application has been uploaded in this new GitHub repository ( https://github.com/TryambakamShiva/ChordGate ), 
+with detailed discussion of pre-installation requisites, libraries etc. 
+Please bear with the developer as the documentation is more improved. <br>
 The codes used from the repositories which are under MIT License are in the new repository in files which are inside subfolders namely “templates” and “static”. 
 Individual license files (combined or not) for those codes are provided separately in those subfolders. 
 The codes used from the repository which are under the GNU General Public License v2.0 are in file which is in the main folder. 
@@ -88,5 +88,6 @@ The web-application as of yet is self-developed, self-funded and has limited man
 </div></div></div>
 
 </html>
+
 
 
