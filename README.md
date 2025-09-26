@@ -73,7 +73,7 @@ flask run
 6.	Open your browser and enter “localhost:5000” or “http://127.0.0.1:5000” and you will find your application running.
 7.	In localhost/phpmyadmin you also need to set up a database namely “dbnew” and 2 tables inside it (say “songs” and “gchords”), to store the audio-file paths and file-names and the extracted chords. A third table namely “tbuser” (not required now) may be created when we are using login and registration system as well. You can import the "dbnew.sql" file provided inside this repository.
 8.	You can now use the flask-web-application to upload audio (song/music) files and extract chords and generate their chord-diagram (based on available chord-diagram codes set up inside the files) and download and save the same in .pdf files. All the requisite codes are provided in the files uploaded in this repository. 
-9.      Press CTRL+C in terminal to quit or stop the application.
+9. Press CTRL+C in terminal to quit or stop the application.
 
 License:
 
