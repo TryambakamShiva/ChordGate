@@ -8,11 +8,11 @@ Without music, life would be a mistake. -- Friedrich Nietzsche
 
 
 Abstract: 
-=========
+
 The current repository is about a Python-Flask based Web Application where users can upload MP3, WAV, AIFF and FLAC Audio (Music) Files and the chords will be generated (extracted) from the music files (songs) and consequently generate images of the guitar chords (chord-diagram) in HTML. The extracted chords and chord-diagram can then be saved as .pdf file by users. For best results, upload MP3 files. File Mime-Types are checked inside server for security protocols and so if one type of file is rejected based on MIME–type, please upload another file (suitably MP3).
 
 Credits and Attribution: 
-========================
+
 The current repository primarily utilizes combination of some work from the following GitHub repositories:
 1.	chord-extractor or https://github.com/ohollo/chord-extractor by ohollo ( https://github.com/ohollo ) and the web application uses the  Python library namely “chord-extractor” from the repository concerned to extract chord sequences from sound files of multiple formats. The extraction process wraps around Chordino ( https://code.soundsoftware.ac.uk/projects/nnls-chroma/ ).
 
@@ -25,14 +25,14 @@ The current repository primarily utilizes combination of some work from the foll
 
 
 Introduction: 
-=============
+
 Dear Friends, before I start, I would like to mention that I am a self-taught developer and software programmer (whatever you would like to call me) and I am not very proficient in any coding language. I try to relate codes without actually caring much about syntaxes, scavenging through internet forums for information and hacks, and try to create the required modules to serve my purposes. Also this is my first GitHub repository with actual codes and I don’t have much operational idea about GitHub itself. So please try to bear with me and forgive my ignorance. In all honesty, I am still a novice. The web-application is based on Python (3.8.2) using Flask framework. The web application also uses AJAX-jQuery, PHP and MySQL for its different functionalities. Thanks and Regards.  
 After much trial and error (around March, 2025), the following codes were used inside terminal to successfully set-up the “chord-extractor” package (https://github.com/ohollo/chord-extractor ) for ubuntu 18.04.2 operating system in localhost and use it to extract chord sequences from sound files at least inside the terminal. I have used Python 3.8 as my interpreter. For a hypothetical case, I have considered that I do not have root-access to an actual Linux operating-system based server. 
 This is to be mentioned here, that the same installation set-up is quite different for Windows operating system in localhost and in case you are going to set up the installation later in an actual server with Linux operating system (say CloudLinux) and that too without any root-access as-mentioned above (say a VPS Managed server), then the following steps could be a guide-line for the same. I have installed the packages in Windows 10, as well as in an actual server (Linux) without root-access and the following steps should then help. If possible, I will also try to provide detailed steps to install it in Windows 10 and also that in an actual Linux server (without root-access) if possible.
 
 
 Installation for ubuntu 18.04.2 (localhost):
-============================================
+
 
 1.	sugata@sugata-p6720in:~/project$ virtualenv -p python3.8 project5
 (Creates Virtual Environment)
@@ -55,7 +55,7 @@ The command “pip install chord-extractor” works smoothly in Windows operatin
 7.	Lastly flask installed in your system using “pip install flask”. Flask is used to transfer data from a Python script executed in the terminal to a Flask application and typically uses HTTP requests. The Flask framework in our case helps to transfer the generated chord-data, which is extracted by execution of the uploaded audio-files by user.  
 
 Setting-Up the Web-Application (localhost Windows):
-===================================================
+
 For initial set-up steps for Windows OS, follow the installation guideline of "chord-extractor or https://github.com/ohollo/chord-extractor by ohollo". In particular, 
 "Vamp plugin pack installer ( https://code.soundsoftware.ac.uk/projects/vamp-plugin-pack ) needs to be downloaded and executed first. If possible, I will later give a detailed step by step description of it. 
 The web-application, as mentioned before, is based on Python (3.8.2) using Flask framework and also uses AJAX-jQuery, PHP and MySQL for its operation. For actual implementation of the codes to be provided later in localhost (in Windows particularly), it’s required to install XAMPP first and then copy the files and folders concerned in mother folder (say ‘flask7’) in “htdocs” section. 
@@ -76,7 +76,7 @@ flask run
 9.      Press CTRL+C in terminal to quit or stop the application.
 
 License:
-========
+
 1.	chord-extractor or https://github.com/ohollo/chord-extractor by ohollo ( https://github.com/ohollo ) is Licensed under the GNU General Public License v2.0.
 2.	ChordJS or https://github.com/acspike/ChordJS by acspike ( https://github.com/acspike ) is Licensed under the MIT License.
 3.	html2canvas or https://github.com/niklasvh/html2canvas by niklasvh ( https://github.com/niklasvh ) is Licensed under the MIT License.
