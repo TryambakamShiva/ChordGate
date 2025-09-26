@@ -2,10 +2,10 @@
 ###ChordGate
 
 ###(chordgate.com , https://chordgate.com/)
-===========================================
+
 
 Without music, life would be a mistake. -- Friedrich Nietzsche
-==============================================================
+
 
 Abstract: 
 =========
