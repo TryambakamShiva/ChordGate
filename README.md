@@ -57,7 +57,7 @@ The command “pip install chord-extractor” works smoothly in Windows operatin
 Setting-Up the Web-Application (localhost Windows):
 
 For initial set-up steps for Windows OS, follow the installation guideline of "chord-extractor or https://github.com/ohollo/chord-extractor by ohollo". In particular, 
-"Vamp plugin pack installer ( https://code.soundsoftware.ac.uk/projects/vamp-plugin-pack ) needs to be downloaded and executed first. If possible, I will later give a detailed step by step description of it. 
+"Vamp plugin pack installer ( https://code.soundsoftware.ac.uk/projects/vamp-plugin-pack )" needs to be downloaded and executed first. If possible, I will later give a detailed step by step description of it. 
 The web-application, as mentioned before, is based on Python (3.8.2) using Flask framework and also uses AJAX-jQuery, PHP and MySQL for its operation. For actual implementation of the codes to be provided later in localhost (in Windows particularly), it’s required to install XAMPP first and then copy the files and folders concerned in mother folder (say ‘flask7’) in “htdocs” section. 
 Also Microsoft Visual Code Editor should be useful. So if you download the repository and extract the folder, just rename it to "flask7". This was the name of the folder in my localhost in XAMPP "htdocs", and all file-path codes inside are set accordingly.
 There are four subfolders inside the main folder, namely "static", "templates", "Docs" and "songs (for storing the audio files)". In a Flask application, the "static" and "templates" folders serve distinct purposes.
